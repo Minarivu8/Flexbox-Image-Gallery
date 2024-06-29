@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: "Gabarito", sans-serif;
+    
+
+
+}
+.container{
+    padding:20px;
+    background-color: #D7E7E1;
+}
+.head{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+    }
+    .head h1{
+        font-size: 50px;
+    }
+    
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow: grow;    
+    justify-content:center;
+
+
+margin:10px;
+   
+}
+.images__one{
+    width:280px;
+padding:10px;
+
+}
+
+
+.images__one img{
+    width: 100%;
+    height: 370px;
+    border:solid #DAD5C9 4px;
+    border-radius: 20px;
+
+
+}
+
+
